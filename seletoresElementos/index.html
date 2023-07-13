@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>seletores de elementos</title>
+</head>
+<body>
+  <div id="pai">
+    <p id="primeiro-filho">primeiro filho</p>
+    <p id="segundo-filho">segundo filho</p>
+    <p id="terceiro-filho">terceiro filho</p>
+  </div>
+  <script>
+    // const firstChild = document.getElementById('primeiro-filho');
+    // console.log(firstChild.parentElement);
+    const getFather = document.getElementById('pai');
+    console.log(getFather.lastElementChild);
+  </script>
+</body>
+</html>
