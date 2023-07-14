@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Aula inicial sobre eventos</h1>
+  <button type="button" onclick="handleClick()">aperte-me</button>
+  <script>
+    
+    function inicioDoSite() {
+      alert('A página foi renderizada')
+    }
+    
+    function handleClick(event) {
+      console.log('clicou');
+      console.log(event);
+    }
+    // window.onload = inicioDoSite
+  </script>
+</body>
+</html>
